@@ -1,0 +1,32 @@
+.postchip-container {
+  margin: 8px 0;
+  border-radius: 2px;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.post-container {
+  padding: 8px;
+  background-color: #fff;
+  color: #4d4d4d;
+  display: flex;
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.post-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.post-status {
+  background-color: grey;
+  min-width: 8px;
+}
+
+.post-status-approved {
+  background-color: #18b55a;
+}

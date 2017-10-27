@@ -1,0 +1,13 @@
+.week-view-container {
+  height: 100%;
+}
+
+.week-view-container .week-table-container {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.week-view-container .week-table-container thead tr th {
+  font-weight: 500;
+  text-align: center;
+}

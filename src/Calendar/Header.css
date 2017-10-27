@@ -1,0 +1,23 @@
+.calendar-header {
+  display: flex;
+  padding: 8px 0;
+}
+
+.header-view-buttons {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.header-navigate-buttons {
+  margin-right: 32px;
+}
+
+.header-navigate-buttons .today-button {
+  margin-right: 8px;
+}
+
+.calendar-header .header-current-period {
+  display: flex;
+  align-items: center;
+}
